@@ -1,13 +1,13 @@
 import webbrowser
-from cv2 import repeat
 import keyboard
 import time
 from torch import true_divide
 
 #abre o navegador
 def navegador():
-    url = 'https://localhost:80'
-    webbrowser.get('chrome').open(url)
+    # url = 'https://localhost:80'
+    # webbrowser.get('chrome').open(url)
+    webbrowser.open('https://localhost:80')
 
 #fecha aba
 def fechaaba():
@@ -30,14 +30,16 @@ def encerrar():
 def earn654():
     navegador()
     time.sleep(3)
-    fechaaba()
-    time.sleep(3)
+    # fechaaba()
+    # time.sleep(3)
     anonima()
-    time.sleep(3)
+    time.sleep(1)
     colaeroda()
-    time.sleep(5)
+    time.sleep(3)
     encerrar()
-
+    time.sleep(1)
+    fechaaba()
+    
 #laco para repetir script
 while(True):
     earn654()
