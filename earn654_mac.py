@@ -35,7 +35,7 @@ def earn654():
     anonima()
     time.sleep(1)
     colaeroda()
-    time.sleep(3)
+    time.sleep(4)
     encerrar()
     time.sleep(1)
     fechaaba()
