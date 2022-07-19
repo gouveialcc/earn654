@@ -28,28 +28,28 @@ def encerrar():
     keyboard.press_and_release('shift+Command+w')
  
 # def countdown(h, m, s):
-#     # Calculate the total number of seconds
+#     # Calcula o total de segundos
 #     total_seconds = h * 3600 + m * 60 + s
  
-#     # While loop that checks if total_seconds reaches zero
-#     # If not zero, decrement total time by one second
+#     # Verifica se o total de segundos alcanca zero
+      # se nao estiver em zero, decrementa o valor do tempo total em um segundo.
 #     while total_seconds > 0:
  
-#         # Timer represents time left on countdown
-#         timer = datetime.timedelta(seconds = total_seconds)
+#         # Timer representa o tempo restante do countdown
+#         #timer = datetime.timedelta(seconds = total_seconds)
         
-#         # Prints the time left on the timer
+#         # Printa o tempo restante do Timer
 #         print(timer, end="\r")
  
-#         # Delays the program one second
+#         # Atrasa o inicio do countdown
 #         time.sleep(1)
  
-#         # Reduces total time by one second
+#         # Reduz o tempo total em um segundo
 #         total_seconds -= 1
  
 #     print("Bzzzt! The countdown is at zero seconds!")
  
-# # Inputs for hours, minutes, seconds on timer
+# # Entrada para hora, minuto e segundos no Timer
 # h = input("Enter the time in hours: ")
 # m = input("Enter the time in minutes: ")
 # s = input("Enter the time in seconds: ")
